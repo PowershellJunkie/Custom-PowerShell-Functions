@@ -1,4 +1,11 @@
-﻿function SQL-Query{
+<#
+Original Code written by Ben Sparks (as far as I now), a friend of mine. 
+
+His GitHub can be found here:
+https://github.com/sparksbenjamin
+#>
+
+function SQL-Query{
 param(
 [Parameter(Position=0,mandatory=$true)]
 [string]$Query,
