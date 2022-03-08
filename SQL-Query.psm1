@@ -1,5 +1,5 @@
 <#
-Original Code written by Ben Sparks (as far as I now), a friend of mine. 
+Original Code written by Ben Sparks (as far as I know), a friend of mine. 
 
 His GitHub can be found here:
 https://github.com/sparksbenjamin
