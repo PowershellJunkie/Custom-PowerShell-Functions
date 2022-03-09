@@ -1,4 +1,10 @@
-﻿Function Get-ADUserLockouts {
+﻿<#
+ The purpose of this function is to allow the person using it to search details behind AD User lockouts. 
+ The 'StartTime' and 'EndTime' parameters allow the user of the function to dictate the window they are searching within, while the 'Identity' function allows the ability to drill down to a specific user. 
+ The function will output the user name that is searched, the computer that caused or initiated the lockout and the time the lockout was initiated.
+ #>
+ 
+ Function Get-ADUserLockouts {
     [CmdletBinding(
         DefaultParameterSetName = 'All'
     )]
