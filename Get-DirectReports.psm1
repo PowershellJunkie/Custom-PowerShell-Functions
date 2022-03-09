@@ -1,4 +1,10 @@
-﻿Function Get-DirectReports{
+﻿<#
+Purpose is to allow the user of this function to search for specific Active Directory users and get the direct reports of the searched user. 
+The default action of this function as it stands is to recursively search the direct reports of the searched manager. 
+The 'NoRecurse' switch exists to prevent this when it is desirable to do so.
+ #>
+ 
+ Function Get-DirectReports{
 
     [CmdletBinding()]
     param(
