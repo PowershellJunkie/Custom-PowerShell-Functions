@@ -1,3 +1,8 @@
+<#
+A simple function designed to get no only the user's manager, but to do so in an easily readable format and output information specific to that manager. 
+This will specifically get the manager's Display Name, sAMAccountName, User Principal Name (which should match their email address) and whether or not that manager's account is enabled in Active Directory.
+#>
+
 Function Get-Manager{
 
     [CmdletBinding()]
